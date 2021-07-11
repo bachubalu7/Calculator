@@ -75,7 +75,7 @@ btnmul.grid(row=3,column=3,ipady=20,ipadx=4)
 btneql=ttk.Button(root,text='=',width=8,command=lambda:equalpress())
 btneql.grid(row=4,column=3,rowspan=20,ipady=70,ipadx=4)
 
-btnpls=ttk.Button(root,text='+',width=8,command=lambda:equalpress('+'))
+btnpls=ttk.Button(root,text='+',width=8,command=lambda:press('+'))
 btnpls.grid(row=1,column=3,ipady=20,ipadx=4)
 
 btnmod=ttk.Button(root,text='/',width=10,command=lambda:press('/'))
